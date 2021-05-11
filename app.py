@@ -60,12 +60,12 @@ def main():
     st.markdown(html_temp,unsafe_allow_html=True)
     st.header("Prediction for sickness")
     Gender = st.number_input('Insert 0 for Male 1 for Female ',0,1)
-    Glucose = st.number_input('Inset Glucose',0,200)
-    BP = st.number_input('Inset Bp',0,100)
-    SkinThickness = st.number_input('Inset SkinThickness',0,50)
-    Insulin = st.number_input('Inset Insulin',0,1000)
-    BMI = st.number_input('Inset BMI',0,50)
-    PedigreeFunction = st.number_input('Inset PedigreeFunction',0.0,1.0)
+    Glucose = st.number_input('Insert Glucose',0,200)
+    BP = st.number_input('Insert Bp',0,100)
+    SkinThickness = st.number_input('Insert SkinThickness',0,50)
+    Insulin = st.number_input('Insert Insulin',0,1000)
+    BMI = st.number_input('Insert BMI',0,50)
+    PedigreeFunction = st.number_input('Insert PedigreeFunction',0.0,1.0)
     Age = st.number_input('Insert a Age',18,70)
     
     result=""
